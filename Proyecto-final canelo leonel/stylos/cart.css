@@ -1,0 +1,31 @@
+#productos-container{
+    width: 500px;
+    margin: auto;
+
+}
+.tarjeta-producto{
+    display: flex;
+    margin: 25px;
+    gap: 20px;
+    align-items: center;
+    box-shadow: 0 3px 5px rgb(0, 6, 0, 0.120);
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+.tarjeta-producto img{
+    
+    height: 100px;
+    aspect-ratio: 1.2;
+}
+.tarjeta-producto h3{
+    width: 130px;
+}
+#totales{
+    text-align: center;
+    color: black;
+    font-family:monospace;   
+    font-size: larger;
+}
+#totales,#carrito-vacio{
+  text-align: center;
+}

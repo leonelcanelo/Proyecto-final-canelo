@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../stylos/style.css">
+    <link rel="stylesheet" href="../stylos/cart.css">
+   
+    <title>Bebidas puntojson - carrito</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index/index.html"><img src="../img/logo de la pag.jpg" id="logo" alt="logo"></a>
+            <div>
+               <a href="#">Q'vinoteca</a>
+               <a href="#">Ruta</a>
+               <a href="../index/cart.html" id="cart"><img src="../img/carro de compras.jpg" alt="carrito de compra"><span id="cuenta-carrito">0</span></a>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <p id="carrito-vacio">ups! No hay productos en el carrito. <a href="../index/index.html">Agregar bebidas</a></p>
+        <section id="productos-container"></section>
+        <section id="totales">
+            <p>Total unidades: <span id="unidades">0</span></p>
+            <p>Total precio:$ <span id="precio">0</span></p>
+            <button disabled >Comprar</button><a href="https://wa.me/+54955555555"> <img src="../img/whatsapp-fill.svg" style="width: 50px; height: 50px;" alt=""></a>
+            <button id="reiniciar-carrito">Reiniciar carrito</button>
+        </section>
+    </main>
+
+    <footer>
+        <p> A las mejores bebidas las encontras aca </p>
+    </footer>
+    <script src="../js/cart.js" defer></script>
+    <script src="../js/cartService.js" defer></script>
+</body>
+</html>
